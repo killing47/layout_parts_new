@@ -1,5 +1,95 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+/* 追加したclass
+   is_textalgin
+   q6_box_inner
+   q6_box_text
+   is_margin
+   is_table
+   q6_box
+   is_flex
+   position_stable_box
+   position_stable_box_inner
+   position_flexible_box
+   position_flexible_box_inner
+*/
+
+.q6_box_inner {
+  text-align: center;
+}
+
+.is_textalgin .q6_box_text{
+  display: inline-block;
+  /* display: inline-block;でtext-align: center;をつかえるようにする*/
+  padding: 10px 0;
+  width: 90px;
+  background-color: #E6F2FF;
+}
+
+.is_margin .q6_box_text {
+  padding: 10px 0;
+  width: 90px;
+  background-color: #E6F2FF;
+  margin: 0 auto;
+  text-align: center;
+  /* margin: 0 auto;　text-align: center; ２つで中央に持ってくる*/
+}
+
+.is_table {
+  display: table;
+}
+
+.is_table .q6_box {
+  display: table-cell;
+  background-color: #ECF1F2;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.is_table .q6_box_text {
+  display: inline-block;
+  padding: 10px;
+  background-color: #FFF;
+}
+
+.is_flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* justify-content: center;　div要素の揃え方*/
+ }
+
+.is_flex .q6_box_text{
+  padding: 10px;
+  background-color: #FFF;
+}
+
+.position_stable_box{
+  position: relative;
+}
+
+.position_stable_box_inner{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+   /* margin: auto; 中央に来るようにする画面変動しても固定される*/
+}
+
+.position_flexible_box{
+  position: relative;
+}
+
+.position_flexible_box_inner{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /*上記４つで可変で中央寄せ */
+  text-align: center;
+}
 
 /* 回答はここに書いてね */

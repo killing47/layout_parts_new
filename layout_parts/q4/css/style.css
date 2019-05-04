@@ -1,5 +1,55 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.q4_wrap {
+  padding: 20px;
+  box-sizing: border-box;
+  /* box-sizing: border-box; padding と border の幅を要素の幅と高さに含める */
+}
 
+.q4_contents {
+  display: table;
+  /* display: table table要素と同じになる*/
+  margin-top: 20px;
+  width: 100%;
+}
+
+.q4_contents:first-child {
+  margin-top: 0;
+}
+
+.q4_contents_cell {
+  display: table-cell;
+  /* display: table-cell  table要素のtdと同じになる*/
+  padding: 20px;
+  text-align: center;
+}
+
+.q4_contents_cell.is_pink {
+  width: 100px;
+  /* width を指定することで固定できる。 */
+  background-color: #FDC8B8;
+}
+
+.q4_contents_cell.is_purple {
+  background-color: #E0ABD9;
+}
+
+.q4_contents_cell.is_blue {
+  width: 100px;
+  background-color: #B6D8ED;
+}
+
+.q4_contents_cell.is_yellow {
+  background-color: #E5D32E;
+}
+
+.q4_contents_cell.is_red {
+  background-color: #EC8F9A;
+}
+
+.q4_contents_cell.is_green {
+  width: 500px;
+  background-color: #8FDCAD;
+}
 /* 回答はここに書いてね */

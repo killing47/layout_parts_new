@@ -1,5 +1,35 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+table {
+  border-collapse: collapse;
+  /* border-collapse: collapse; テーブルの区切り線を決める(テーブルの区切り線を合わせる)*/
+  border-spacing: 0;
+}
+
+.q3_contents {
+  width: 100%;
+  border: 1px solid #dedede;
+  table-layout: fixed;
+}
+
+.q3_contents th, .q3_contents td {
+  padding: 10px;
+  border: 1px solid #dedede;
+  vertical-align: middle;
+  /*vertical-align:middle; 行のテキスト、画像揃え(中央揃え) */
+}
+
+.q3_contents th {
+  background-color: #24a;
+  color: #fff;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.q3_contents td {
+  line-height: 22px;
+  text-align: center;
+}
 
 /* 回答はここに書いてね */
