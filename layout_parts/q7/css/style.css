@@ -27,11 +27,16 @@
   display: table-cell;
   padding-left: 50px;
   vertical-align: middle;
+
   width: 225px;
 }
 
 .table_box:first-child {
   padding-left: 0;
+}
+
+.q7_inner_fontsize{
+  font-size: 0;
 }
 
 .inline_box:first-child {
@@ -40,7 +45,7 @@
 
 .inline_box {
   display: inline-block;
-  margin-left: 45px;
+  margin-left: 50px;
   /* 微妙に出来ていない */
   font-size: 16px;
   vertical-align: middle;
@@ -70,12 +75,16 @@
 
 .is_flexible {
   display: inline-block;
-  width: 99%;
+  width: 100%;
   /* 微妙に出来ていない */
   margin-left: -300px;
   padding-left: 350px;
   box-sizing: border-box;
   vertical-align: top;
+}
+
+.q7__box__text{
+  font-size: 16px;
 }
 
 /* 回答はここに書いてね */

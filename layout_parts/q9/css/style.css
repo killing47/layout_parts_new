@@ -12,7 +12,7 @@
 
 .trans_desc{
   position: absolute;
-  bottom: -100%;
+  top: 100%;
   /* bottom: -100%;画像の下に位置する */
   left: 0;
   width: 100%;
@@ -43,7 +43,7 @@
 }
 
 .trans:hover .trans_desc {
-  bottom: 0;
+  top: 0;
 }
 
 .anima {
