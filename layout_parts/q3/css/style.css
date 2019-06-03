@@ -32,4 +32,8 @@ table {
   text-align: center;
 }
 
+.q3_contents tbody tr:last-child {
+  border-top: 2px dashed #000;
+}
+
 /* 回答はここに書いてね */

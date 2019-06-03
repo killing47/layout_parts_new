@@ -19,11 +19,11 @@
   margin-left: 0;
 }
 
-.table_contents{
+.table_contents {
   display: table;
 }
 
-.table_box{
+.table_box {
   display: table-cell;
   padding-left: 50px;
   vertical-align: middle;
@@ -38,30 +38,31 @@
   margin-left: 0;
 }
 
-.inline_box{
+.inline_box {
   display: inline-block;
-  margin-left: 45px; /* 微妙に出来ていない */
+  margin-left: 45px;
+  /* 微妙に出来ていない */
   font-size: 16px;
   vertical-align: middle;
   box-sizing: border-box;
   width: 225px;
 }
 
-.flex_box{
+.flex_box {
   display: flex;
   /* display: flex; 横並びにしてくれる*/
   justify-content: space-around;
   align-items: flex-end;
 }
 
-.flex_text{
+.flex_text {
   font-size: 16px;
   vertical-align: middle;
   box-sizing: border-box;
   width: 225px;
 }
 
-.is_stable{
+.is_stable {
   display: inline-block;
   width: 300px;
   vertical-align: top;
@@ -69,7 +70,8 @@
 
 .is_flexible {
   display: inline-block;
-  width: 99%; /* 微妙に出来ていない */
+  width: 99%;
+  /* 微妙に出来ていない */
   margin-left: -300px;
   padding-left: 350px;
   box-sizing: border-box;
